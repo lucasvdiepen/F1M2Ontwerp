@@ -1,0 +1,12 @@
+html{
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+
+h1{
+    color: darkgreen;
+    font-family: serif;
+}
+.dierenparkFoto{
+    max-width: 100%;
+}
