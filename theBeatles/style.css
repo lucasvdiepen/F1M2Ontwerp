@@ -12,7 +12,7 @@ body{
     min-height: 1220px;
     background-image: url("images/beatles.jpg");
     color: white;
-    padding-top: 54px;
+    padding-top: 154px;
 }
 
 h3, p{
@@ -26,11 +26,26 @@ h3, p{
 }
 
 .beatle {
-    background-color: rgba(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0.8);
     width: 200px;
+    cursor: pointer;
+}
+
+.beatle .naam {
+    opacity: 0;
+}
+
+.beatle:hover .naam{
+    opacity: 1;
 }
 
 #john{
-    margin-left: 85px;
-    margin-top: 100px;
+    margin-left: 115px;
+    padding-top: 360px;
+    padding-left: 273px;
+    padding-bottom: 52px;
+}
+
+#john .naam{
+    padding-left: 95px;
 }
