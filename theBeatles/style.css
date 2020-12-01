@@ -11,6 +11,7 @@ body{
     margin: 0 auto;
     min-height: 1220px;
     background-image: url("images/beatles.jpg");
+    background-repeat: no-repeat;
     color: white;
     padding-top: 154px;
 }
@@ -26,13 +27,14 @@ h3, p{
 }
 
 .beatle {
-    background-color: rgba(255, 0, 0, 0.8);
+    /* background-color: rgba(255, 0, 0, 0.8); */
     width: 200px;
     cursor: pointer;
 }
 
 .beatle .naam {
     opacity: 0;
+    text-shadow: 0 0 3px black;
 }
 
 .beatle:hover .naam{
@@ -41,11 +43,41 @@ h3, p{
 
 #john{
     margin-left: 115px;
-    padding-top: 360px;
+    padding-top: 402px;
     padding-left: 273px;
-    padding-bottom: 52px;
+    padding-bottom: 10px;
 }
 
 #john .naam{
-    padding-left: 95px;
+    margin-left: 95px;
+}
+
+#ringo{
+    margin-left: 115px;
+    margin-top: 13px;
+    padding-top: 10px;
+    padding-left: 273px;
+    padding-bottom: 402px;
+}
+
+#ringo .naam{
+    margin-left: 95px;
+}
+
+#paul{
+    margin-left: 604px;
+    margin-top: -470px;
+    padding-top: 402px;
+    padding-right: 258px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#george{
+    margin-left: 604px;
+    margin-top: -470px;
+    padding-top: 9px;
+    padding-right: 258px;
+    padding-left: 10px;
+    padding-bottom: 403px;
 }
