@@ -4,19 +4,30 @@
         <link rel="stylesheet" href="style.css">
         <title>Ouwehands dierenpark</title>
         <style>
+            body{
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+            }
+
             main{
+                flex: 2 0 auto;
+                display: flex;
                 padding: 0 1%;
             }
+
             section{
-                width: 23%;
-                float: left;
+                flex: 1 0 13%;
                 padding: 20px;
                 box-sizing: border-box;
                 margin: 0 1%;
             }
 
-            footer {
-                clear: left;
+            h1, footer{
+                flex: 1 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         </style>
     </head>
@@ -55,6 +66,7 @@
                 </p>
             </section>
         </main>
+
         <footer>
             <p>
                 Oefening F1M2 ONT <br>

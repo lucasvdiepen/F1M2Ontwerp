@@ -1,3 +1,5 @@
+html, body {margin: 0; padding: 0;}
+
 html{
     background-color: lightblue;
     font-family: sans-serif;
@@ -14,4 +16,34 @@ h1 span {
 
 .dierenparkFoto{
     max-width: 100%;
+}
+
+nav {
+    background-color: rgb(14, 73, 14);
+    height: 39px;
+}
+
+nav a{
+    display: block;
+    color: #cccccc;
+    text-decoration: none;
+    width: 200px;
+    padding: 10px 20px;
+    float: left;
+    text-align: center;
+}
+
+
+nav a:hover {
+    background-color: rgb(3, 49, 3);
+}
+
+section{
+    /* background-color: white; */
+}
+
+footer{
+    background-color: #333333;
+    color: #cccccc;
+    padding: 10px 30px;
 }
